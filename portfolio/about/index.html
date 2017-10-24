@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>About ¦ Mebrahtu Fortuna</title>
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<style>
+      .list-item {
+        color: red;
+      }
+    </style>
+</head>
+<body>
+<div id="header">
+
+	<header>
+     			<div class="container">
+
+      <h1>Fortuna Mebrahtu</h1>
+             
+      		</div>
+
+    </header>
+		</div>
+
+	
+		<nav>
+                    
+						<div class="container">
+
+			<ul>
+				<li>
+					<a href="../index.html">HOME</a>
+				</li>
+				<li>
+					<a class="selected" href="index.html"  >ABOUT</a>
+				</li>
+				<li>
+					<a href="../project/index.html">PROJECT</a>
+				</li>
+				<li>
+					<a href="../contact/index.html">CONTACT</a>
+				</li>
+			</ul>
+					</div>
+
+		</nav>
+
+<main>
+           
+        	
+<div class="container">
+          <h2>About Me</h2>
+
+		<p>Hello! My name is Fortuna.I was born and raised in Eritrea.After high school graduation, I joined a Medical school and studied two years of pre-med and four and half years of Medicine,then because of the political instability, I forced to leave my country.And currently I am studding coding in powercoders,a coding acodemy for refugees..</p>
+		
+
+		<h3>Skills</h3>
+		
+		<ul>
+		    <li>
+		        Introduction to computer applications.
+		    </li>
+		</ul>
+		<h3>Languages I speak</h3>
+		<ul>
+		    <li>Tigrigna (Mother tangue)</li>
+		    <li>English (Upper intermediate)</li>
+		    <li>Amharic (fluent)</li>
+		    <li>Deutsch (A2.2)</li>
+		</ul>
+		<h3>Hobbies</h3>
+		<ul>
+		    <li>Reading books</li>
+		    <li>Solving puzzles.</li>
+		    <li>Spending time with my family and friends.</li>
+		    <li>watching movies.</li>
+		</ul>
+		<h1>About Me</h1>
+
+    <ul>
+      <li>Nickname: <span id="nickname"></span>
+      <li>Favorites:  <span id="favorites"></span>
+      <li>Hometown: <span id="hometown"></span>
+     </ul>
+		
+		</div>
+   <div class="container">
+
+    <picture>
+  <source 
+    media="(min-width: 650px)"
+    srcset="../image/fortune-big.jpg" class="responsive">
+  <source 
+    media="(min-width: 465px)"
+    srcset="../image/baby.jpg" class="responsive">
+  <img src="../image/fortune.jpg" 
+    alt="Fortuna" class="responsive">
+</picture>
+		</div>
+
+    </main>
+		
+	
+	
+	<footer>
+
+		<div id="footer">
+
+		<p>Copyright © 2017 Fortuna. All Rights Reserved.</p>
+			</div>
+
+	</footer>
+	<script>
+        document.body.style.fontFamily = "Arial, sans-serif"; 
+     document.getElementById('nickname').textContent = 'Fortune';
+     document.getElementById('favorites').textContent = 'reading, watching movies,';
+     document.getElementById('hometown').textContent = 'Asmara';
+     var items = document.getElementsByTagName('li');
+     for (var i = 0; i < items.length; i++) {
+        items[i].className = 'list-item';
+     }
+
+      
+    </script>
+	
+</body>
+</html>
